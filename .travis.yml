@@ -16,4 +16,3 @@ branches:
     - master
     - release
     - publish
-    - feature/*
