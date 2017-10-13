@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Code snippets.",
   "scripts": {
-    "test": "mocha --require babel-polyfill --require babel-register"
+    "test": "karma start karma.conf.js --single-run"
   },
   "repository": {
     "type": "git",
