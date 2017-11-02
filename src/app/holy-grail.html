@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Holy Grail</title>
+    <style>
+        body {
+            min-width: 600px; /* 2x LC width + RC width */
+        }
+
+        .header, .footer {
+            text-align: center;
+            background: #aaaaaa;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .container {
+            padding: 0 170px 0 200px;
+            overflow: hidden;
+            background: #eef;
+        }
+
+        .container .column {
+            float: left;
+            position: relative;
+            /* Equal height column */
+            padding-bottom: 20010px;  /* X + padding-bottom */
+            margin-bottom: -20000px;  /* X */
+        }
+
+        .left {
+            width: 180px;
+            padding: 0 10px;
+            margin-left: -100%;
+            right: 220px;
+            background: #aff;
+        }
+
+        .right {
+            width: 130px;
+            padding: 0 10px;
+            margin-right: -100%;
+            background: #eae;
+        }
+
+        .center {
+            width: 100%;
+            padding: 5px 10px;
+            background: #eea;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    This is the HEADER text.
+</div>
+<div class="container">
+    <div class="center column">
+        This is the CENTER text.
+    </div>
+    <div class="left column">
+        This is the LEFT text.
+    </div>
+    <div class="right column">
+        This is the RIGHT text.
+    </div>
+</div>
+<div class="footer">
+    This is the FOOTER text.
+</div>
+</body>
+</html>
