@@ -1,6 +1,5 @@
 import factoryCreate from '../src/js/create-object/factory'
-import Person from '../src/js/create-object/constructor'
-import { assert } from 'chai'
+import Person from '../src/js/create-object/construct'
 
 describe('Factory Pattern', function () {
     it('factory', function () {
