@@ -14,9 +14,8 @@ module.exports = function (config) {
         
         // list of files / patterns to load in the browser
         files: [
-            'test-main.js',
-            { pattern: 'src/**/*.js' },
-            { pattern: 'test/**/*.js' }
+            'src/**/*.js',
+            'test/**/*.spec.js'
         ],
         
         
@@ -30,14 +29,7 @@ module.exports = function (config) {
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
             'src/**/*.js': ['babel'],
-            'test/**/*.js': ['babel']
-        },
-        
-        babelPreprocessor: {
-            // options go here
-            options: {
-                presets: ['env']
-            }
+            'test/**/*.spec.js': ['babel']
         },
         
         
