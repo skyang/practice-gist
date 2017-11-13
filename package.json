@@ -4,7 +4,7 @@
   "description": "Code snippets.",
   "scripts": {
     "lint": "eslint --ext .js, src test",
-    "test": "karma start karma.conf.js --single-run --browsers Chrome"
+    "test": "npm run lint && karma start karma.conf.js --single-run --browsers Chrome"
   },
   "repository": {
     "type": "git",

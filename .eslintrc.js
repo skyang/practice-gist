@@ -13,6 +13,8 @@ module.exports = {
     'rules': {
         'no-eval': 0,
         'no-new-object': 0,
+        'no-array-constructor': 0,
+        'no-unused-vars': 1,
         'indent': [2, 4, {
             'SwitchCase': 1
         }],
@@ -29,6 +31,7 @@ module.exports = {
     },
     'globals': {
         'describe': true,
+        'assert': true,
         'context': true,
         'before': true,
         'beforeEach': true,
