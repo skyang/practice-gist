@@ -11,6 +11,5 @@ describe('Inherit based on Prototype', function () {
         assert.isTrue(subIns instanceof Super, '由于原型链的关系，Sub的实例也是Super的实例')
         assert.isTrue(Sub.prototype.isPrototypeOf(subIns), '或使用isPrototypeOf方法判断')
         assert.isTrue(Super.prototype.isPrototypeOf(subIns))
-        
     })
 })
