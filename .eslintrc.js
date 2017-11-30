@@ -15,6 +15,7 @@ module.exports = {
         'no-new-object': 0,
         'no-array-constructor': 0,
         'no-unused-vars': 1,
+        'no-undef': 1,
         'indent': [2, 4, {
             'SwitchCase': 1
         }],
