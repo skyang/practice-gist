@@ -21,7 +21,8 @@ module.exports = function (config) {
         
         // list of files to exclude
         exclude: [
-            'src/js/sw.js'
+            'src/js/sw.js',
+            'src/js/upload/upload.js'
         ],
         
         

@@ -2,7 +2,8 @@ var spark = new SparkMD5.ArrayBuffer()
 
 var blobSlice = File.prototype.slice || File.prototype.mozSlice || File.prototype.webkitSlice
 var chunkSize = 1024 * 50 // 50KB一块
-var chunks, currentChunk = 0
+var chunks
+var currentChunk = 0
 var file, fileSize, fileHash
 
 var fReader = new FileReader()
