@@ -3,7 +3,9 @@ export default function quicksort (lists) {
     
     const length = lists.length
     if (length <= 1) return lists
-    let left = [], right = []
+  
+    let left = []
+    let right = []
     let pivot = [lists[0]]
     for (let i = 1; i < length; i++) {
         const li = lists[i]
